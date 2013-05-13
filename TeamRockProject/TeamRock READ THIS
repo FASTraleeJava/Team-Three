@@ -1,2 +1,15 @@
 I created Branch no.1 for everyone to change. The Master Branch is for me only.
 Make changes and push 'em and if they work well I can merge them to the master branch
+
+You can experiment with your own local repository branches too. A branch
+is just a copy of an earlier state of a project. You create a branch if
+you want to go in a different direction and add new features. If the guy
+in charge of the code likes it then he can merge your branch with the
+master branch - implementing your code changes. Lets say you change line
+no 14. If I merge your branch and my branch then I get your line 14. If
+both our programs have changes made to line 14, there will be a conflict
+which the lead guy can sort out by editing the text and deciding what
+takes precedence over what.
+
+I only have a gist over the very basics, will upload some tutorials from
+the net. I'm no expert at this either!
