@@ -3,7 +3,7 @@ package logogame;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
-
+//Test Ned
 public class LogoGame extends JFrame {
 	String[] picArray = { "batman-logo-big.gif", "British Petroleum.jpg",
 			"GI.jpg", "chrome.jpg", "irish-embassy.jpg", "iTunes.jpg",
