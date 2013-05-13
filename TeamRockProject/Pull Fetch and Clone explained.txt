@@ -1,0 +1,14 @@
+Git Pull
+
+From what I understand, git pull will pull down from a remote whatever you ask (so, whatever trunk you’re asking for) and instantly merge it into the branch you’re in when you make the request. Pull is a high-level request that runs ‘fetch’ then a ‘merge’ by default, or a rebase with ‘–rebase’. You could do without it, it’s just a convenience.
+
+
+Git fetch
+
+Fetch is similar to pull, except it won’t do any merging.
+So, the fetch will have pulled down the remoteBranch and put it into a local branch called “remoteBranch”. creates a local copy of a remote branch which you shouldn’t manipulate directly; instead create a proper local branch and work on that. ‘git checkout’ has a confusing feature though. If you ‘checkout’ a local copy of a remote branch, it creates a local copy and sets up a merge to it by default.##
+
+Git clone
+
+Git clone will clone a repo int a newly created directory. It’s useful for when you’re setting up your local doodah
+Git clone additionally creates a remote called ‘origin’ for the repo cloned from, sets up a local branch based on the remote’s active branch (generally master), and creates remote-tracking branches for all the branches in the repo
