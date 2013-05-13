@@ -2,6 +2,10 @@ import java.util.*;
 import java.text.*;
 //Good Job Gergios
 //I imported this and pushed it as a serparate Java Project. It has its own Branch based on the branch you made it from. Branch no.1
+//You pushed it to the repository and Branch No.1 that you cloned - and then I could see the Test1 folder and your Carpark program with a Branch no.1
+//I then imported it as a separate project into my local repository from the remote and instead of merging pushed it as a separate project alongside TeamRock to my repository for all to see
+
+
 class Parking {
 	public static void main(String[] args) {
 		DecimalFormat df = new DecimalFormat("€##.##");
